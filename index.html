@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title> Florida senators by district office</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="">
+  <link rel="stylesheet" href="styles/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Archivo|Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<h1>Where is your Florida senator?</h1>
+<p>Over <a href="http://edr.state.fl.us/Content/population-demographics/data/2019_Pop_Estimates.pdf">21 million</a> people live in Florida, and 40 state senators represent all Floridians across 40 districts.</p>
+<p>Explore the map below to find the district office of your closest state senator. There are some counties with multiple senators due to populations and district lines. Find your district by address on the <a href='https://flsenate.gov/Senators/Find'>Florida State Senate website</a>.</p>
+<div id="mapid"></div>
+
+<p>All senator information retrieved from <a href='https://flsenate.gov/Senators'>The Florida Senate website</a>.</p>
+<p>Website by Taylor Girtman</p>
+
+<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+crossorigin=""></script>
+<script src="js/places.js"></script>
+<script src="js/senators.js"></script>
+</body>
+</html>
